@@ -1,0 +1,70 @@
+body{
+    background-color: #24353F;
+}
+*{
+    background-color: #24353F !important;
+    font-family: sans-serif;
+}
+.login{
+
+        border: 1px solid;
+        box-shadow: 1px  1px 25px #1A262D;
+      }
+h1{
+    color: rgb(23, 162, 184);
+    font-size: 40px;
+    font-weight: 500;
+}
+.login input{
+    width: 90%;
+    margin: auto;
+    border: #CED4DA solid 2px;
+    color: #FFF;
+
+}
+.login input::placeholder{
+    color: #fff !important;
+}
+.login .button{
+    border:  rgb(23, 162, 184) 2px solid;
+    width: 90%;
+    margin: auto;
+}
+.login button{
+    border: none;
+    color: rgb(23, 162, 184);
+}
+.login p,.login a{
+    color: #FFF;
+}
+.login a{
+    text-decoration: none;
+}
+.login .require, .login #checkin{
+    color: #c12b2b;
+}
+ .hide {
+    display: none;
+}
+.login .success{
+    color:green;
+}
+.login .used{
+    color: #c12b2b;
+}
+.my-nav{
+    background-color: #24353F;
+    box-shadow:5px 5px 20px #1A262D;
+}
+.logo {
+    font-size: 20px;
+    color: #FFF;
+    
+}
+ .my-nav  button{
+    color: rgba(255, 255, 255, 0.75);
+    border: 2px solid #F0B20B;
+}
+.my-nav  button:hover{
+    background-color: #F0B20B !important;
+}
